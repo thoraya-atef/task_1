@@ -9,8 +9,8 @@ class HomeWidget extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('مجلات الأخبار'),
-      ),
+          title: Text('مجلات الأخبار                                               ',textAlign: TextAlign.right,),
+          backgroundColor:Colors.black38),
       body:Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
